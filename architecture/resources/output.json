@@ -1,0 +1,121 @@
+{
+  "ports": [
+    {
+      "ID": 0,
+      "latitude": 40.4507868,
+      "longitude": 19.4035665,
+      "currentShips": [],
+      "currentContainers": [
+        3
+      ],
+      "historyShips": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 1,
+      "latitude": 44.1071189,
+      "longitude": 9.6809488,
+      "currentShips": [
+        0,
+        1,
+        2
+      ],
+      "currentContainers": [
+        4,
+        5,
+        6,
+        7,
+        0,
+        1,
+        2
+      ],
+      "historyShips": []
+    }
+  ],
+  "ships": [
+    {
+      "ID": 0,
+      "fuel": 11352.758744407955,
+      "totalWeightCapacity": 50000,
+      "maxNumberOfAllContainers": 10,
+      "maxNumberOfHeavyContainers": 6,
+      "maxNumberOfLiquidContainers": 3,
+      "maxNumberOfRefrigeratedContainers": 3,
+      "fuelConsumptionPerKM": 100.0,
+      "currentPort": {
+        "ID": 1
+      }
+    },
+    {
+      "ID": 1,
+      "fuel": 55926.37937220398,
+      "totalWeightCapacity": 35000,
+      "maxNumberOfAllContainers": 7,
+      "maxNumberOfHeavyContainers": 3,
+      "maxNumberOfLiquidContainers": 2,
+      "maxNumberOfRefrigeratedContainers": 1,
+      "fuelConsumptionPerKM": 50.0,
+      "currentPort": {
+        "ID": 1
+      }
+    },
+    {
+      "ID": 2,
+      "fuel": 82470.5517488816,
+      "totalWeightCapacity": 10000,
+      "maxNumberOfAllContainers": 4,
+      "maxNumberOfHeavyContainers": 2,
+      "maxNumberOfLiquidContainers": 1,
+      "maxNumberOfRefrigeratedContainers": 1,
+      "fuelConsumptionPerKM": 20.0,
+      "currentPort": {
+        "ID": 1
+      }
+    }
+  ],
+  "containers": [
+    {
+      "ID": 0,
+      "type": "Basic",
+      "weight": 1250
+    },
+    {
+      "ID": 1,
+      "type": "Heavy",
+      "weight": 21000
+    },
+    {
+      "ID": 2,
+      "type": "Basic",
+      "weight": 250
+    },
+    {
+      "ID": 3,
+      "type": "Heavy",
+      "weight": 30000
+    },
+    {
+      "ID": 4,
+      "type": "Basic",
+      "weight": 7500
+    },
+    {
+      "ID": 5,
+      "type": "Liquid",
+      "weight": 18000
+    },
+    {
+      "ID": 6,
+      "type": "Liquid",
+      "weight": 22400
+    },
+    {
+      "ID": 7,
+      "type": "Refrigerated",
+      "weight": 30000
+    }
+  ]
+}
